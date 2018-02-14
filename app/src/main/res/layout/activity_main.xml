@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="nl.designlama.mennosoundboard.MainActivity">
+    tools:context="nl.designlama.mennosoundboard.activity.MainActivity">
 
 
     <LinearLayout
@@ -20,12 +20,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onButton1Pressed"
-            android:text="test"
-            tools:layout_editor_absoluteX="263dp"
-            tools:layout_editor_absoluteY="0dp" />
+            android:text="test" />
 
         <Button
             android:id="@+id/button3"
+            style="@android:style/Widget.Material.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -38,9 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onButton5Pressed"
-            android:text="ondersteboven"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="0dp" />
+            android:text="ondersteboven" />
     </LinearLayout>
 
     <LinearLayout
