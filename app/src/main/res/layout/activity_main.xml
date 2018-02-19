@@ -11,15 +11,14 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar2"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_weight="1"
+        android:layout_height="55dp"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="horizontal">
 
@@ -33,36 +32,57 @@
                 android:id="@+id/button1"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_orange"
                 android:onClick="onButton1Pressed"
-                android:text="Button"
-                tools:text="Dikke billen" />
+                android:text="Dikke billen"
+                android:textAllCaps="false"
+                android:textColor="@color/anwbWit"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_orange"
                 android:onClick="onButton3Pressed"
-                android:text="Button"
-                tools:text="GS1200R" />
+                android:text="GS1200R"
+                android:textAllCaps="false"
+                android:textColor="@color/anwbWit"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_orange"
                 android:onClick="onButton5Pressed"
-                android:text="Button"
-                tools:text="Ondersteboven" />
+                android:text="Ondersteboven"
+                android:textAllCaps="false"
+                android:textColor="@color/anwbWit"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_orange"
                 android:onClick="onButton7Pressed"
-                android:text="Button" />
+                android:text="oohyeah"
+                android:textAllCaps="false"
+                android:textColor="@color/anwbWit"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -76,37 +96,71 @@
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_orange"
                 android:onClick="onButton2Pressed"
-                android:text="Button"
-                tools:text="Hallo" />
+                android:text="Hallo"
+                android:textAllCaps="false"
+                android:textColor="@color/anwbWit"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_orange"
                 android:onClick="onButton4Pressed"
-                android:text="Button"
-                tools:text="Ja leuk" />
+                android:text="Ja leuk"
+                android:textAllCaps="false"
+                android:textColor="@color/anwbWit"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_orange"
                 android:onClick="onButton6Pressed"
-                android:text="Button"
-                tools:text="Racket lanceren" />
+                android:text="Racket lanceren"
+                android:textAllCaps="false"
+                android:textColor="@color/anwbWit"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_orange"
                 android:onClick="onButton8Pressed"
-                android:text="Button"
-                tools:text="Racket lanceren" />
+                android:text="Racket lanceren"
+                android:textAllCaps="false"
+                android:textColor="@color/anwbWit"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
         </LinearLayout>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_red"
+        android:onClick="onSluitenPressed"
+        android:text="Sluiten ➤"
+        android:textAllCaps="false"
+        android:textColor="@color/anwbWit"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 </LinearLayout>

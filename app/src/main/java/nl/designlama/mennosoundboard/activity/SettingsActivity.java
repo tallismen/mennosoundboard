@@ -23,6 +23,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity implements Act
 
     @Override
     public boolean onMenuItemSelected(int featureId, MenuItem item) {
+        Log.i(TAG, "onMenuItemSelected()");
         int id = item.getItemId();
         if (id == android.R.id.home) {
             if (!super.onMenuItemSelected(featureId, item)) {
@@ -35,6 +36,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity implements Act
 
     @Override
     public void onBackPressed() {
+        Log.i(TAG, "onBackPressed()");
         NavUtils.navigateUpFromSameTask(this);
     }
 
