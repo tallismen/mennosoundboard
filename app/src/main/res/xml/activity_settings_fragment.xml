@@ -12,8 +12,8 @@
         <Preference
             android:icon="@mipmap/dev_icon"
             android:key="ontw"
-            android:summary="Maarten Lammers"
-            android:title="Ontwikkelaar" />
+            android:summary="Maarten Lammers ©2018"
+            android:title="DesignLama" />
 
     </PreferenceCategory>
 </PreferenceScreen>
