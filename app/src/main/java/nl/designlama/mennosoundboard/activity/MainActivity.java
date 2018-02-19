@@ -12,7 +12,7 @@ import android.view.View;
 
 import nl.designlama.mennosoundboard.ActionBarSupport;
 import nl.designlama.mennosoundboard.R;
-import nl.designlama.mennosoundboard.ToolbarUtil;
+import nl.designlama.mennosoundboard.utils.ToolbarUtil;
 
 public class MainActivity extends AppCompatActivity implements ActionBarSupport {
 
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements ActionBarSupport 
     }
 
     public void onButton1Pressed(View v) {
-        playSound(R.raw.test);
+        playSound(R.raw.dikkebillen);
     }
 
     public void onButton2Pressed(View v) {
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements ActionBarSupport 
     }
 
     public void onButton3Pressed(View v) {
-        playSound(R.raw.hallo);
+        playSound(R.raw.gs1200r);
     }
 
     public void onButton4Pressed(View v) {
@@ -67,6 +67,14 @@ public class MainActivity extends AppCompatActivity implements ActionBarSupport 
     }
 
     public void onButton6Pressed(View v) {
+        playSound(R.raw.racketlanceren);
+    }
+
+    public void onButton7Pressed(View v) {
+        playSound(R.raw.oohyeah);
+    }
+
+    public void onButton8Pressed(View v) {
         playSound(R.raw.racketlanceren);
     }
 

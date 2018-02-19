@@ -1,4 +1,4 @@
-package nl.designlama.mennosoundboard;
+package nl.designlama.mennosoundboard.utils;
 
 import android.app.Activity;
 import android.support.v4.content.ContextCompat;
@@ -7,6 +7,9 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import nl.designlama.mennosoundboard.ActionBarSupport;
+import nl.designlama.mennosoundboard.R;
 
 public class ToolbarUtil {
 

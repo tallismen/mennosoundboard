@@ -7,7 +7,7 @@ import android.view.MenuItem;
 
 import nl.designlama.mennosoundboard.ActionBarSupport;
 import nl.designlama.mennosoundboard.R;
-import nl.designlama.mennosoundboard.ToolbarUtil;
+import nl.designlama.mennosoundboard.utils.ToolbarUtil;
 
 public class SettingsActivity extends AppCompatPreferenceActivity implements ActionBarSupport {
 
